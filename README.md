@@ -6,7 +6,6 @@ The notebook consists of two approaches: regression and classification. The aim 
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
 
 ## General info
 Regression predictions are made using OLS and XGBRegressor. For the classification case, SVC, Logistic Regression, KNN, XGBClassifier, Naive Bayes algorithms were used. In both cases, hyperparameter optimization used RandomSearch and GridSearch were used to get better results. Finally, in the classification problem, dalex library was applied, to get a better understanding of XGB's blackbox for bussiness cases.
